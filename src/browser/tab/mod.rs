@@ -59,7 +59,7 @@ use crate::browser::transport::Transport;
 use std::thread::sleep;
 
 pub mod element;
-mod keys;
+pub mod keys;
 pub mod point;
 
 #[derive(Debug)]
