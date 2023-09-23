@@ -893,7 +893,7 @@ impl Tab {
         let key = Some(definiton.key.to_string());
         let code = Some(definiton.code.to_string());
 
-        self.optional_slow_motion_sleep(25);
+        self.optional_slow_motion_sleep(5);
 
         self.call_method(Input::DispatchKeyEvent {
             Type: key_down_event_type,
